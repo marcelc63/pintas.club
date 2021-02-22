@@ -1,6 +1,6 @@
 ---
 templateKey: index-page
-title: Welcome to Pintas!
+title: Welcome to Pintas! :D
 image: /img/kylie-de-guia-xguttexjy4a-unsplash.jpg
 heading: Framework is a mental shortcut
 subheading: Providing you with the toolset to start your business
