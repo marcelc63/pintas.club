@@ -1,12 +1,12 @@
 ---
 templateKey: blog-post
-title: Edit Blog!
+title: Strategy Blog Post!
 date: 2016-12-17T15:04:10.000Z
 description: The Coffee Taster’s Flavor Wheel, the official resource used by
   coffee tasters, has been revised for the first time this year.
-link: https://google.com
 featuredpost: false
 featuredimage: /img/flavor_wheel.jpg
+link: https://google.com
 tags:
   - flavor
   - tasting
