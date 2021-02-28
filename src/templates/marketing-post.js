@@ -48,7 +48,7 @@ export const MarketingPostTemplate = ({
   );
 };
 
-BlogPostTemplate.propTypes = {
+MarketingPostTemplate.propTypes = {
   content: PropTypes.node.isRequired,
   contentComponent: PropTypes.func,
   description: PropTypes.string,
