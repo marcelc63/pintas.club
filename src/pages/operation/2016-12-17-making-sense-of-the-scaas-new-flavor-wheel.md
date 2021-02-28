@@ -1,5 +1,5 @@
 ---
-templateKey: blog-post
+templateKey: operation-post
 title: Edit Blog!
 date: 2016-12-17T15:04:10.000Z
 description: The Coffee Taster’s Flavor Wheel, the official resource used by

@@ -1,7 +1,7 @@
 import React from "react";
 
 import Layout from "../../components/Layout";
-import BlogRoll from "../../components/BlogRoll";
+import OperationRoll from "../../components/OperationRoll";
 
 export default class OperationIndexPage extends React.Component {
   render() {
@@ -28,7 +28,7 @@ export default class OperationIndexPage extends React.Component {
         <section className="section">
           <div className="container">
             <div className="content">
-              <BlogRoll />
+              <OperationRoll templateKey="operation-post" />
             </div>
           </div>
         </section>

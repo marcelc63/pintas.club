@@ -1,7 +1,7 @@
 import React from "react";
 
 import Layout from "../../components/Layout";
-import BlogRoll from "../../components/BlogRoll";
+import MarketingRoll from "../../components/MarketingRoll";
 
 export default class MarketingIndexPage extends React.Component {
   render() {
@@ -28,7 +28,7 @@ export default class MarketingIndexPage extends React.Component {
         <section className="section">
           <div className="container">
             <div className="content">
-              <BlogRoll />
+              <MarketingRoll templateKey="marketing-post" />
             </div>
           </div>
         </section>

@@ -1,7 +1,7 @@
 import React from "react";
 
 import Layout from "../../components/Layout";
-import BlogRoll from "../../components/BlogRoll";
+import StrategyRoll from "../../components/StrategyRoll";
 
 export default class StrategyIndexPage extends React.Component {
   render() {
@@ -28,7 +28,7 @@ export default class StrategyIndexPage extends React.Component {
         <section className="section">
           <div className="container">
             <div className="content">
-              <BlogRoll />
+              <StrategyRoll templateKey="strategy-post" />
             </div>
           </div>
         </section>
