@@ -1,6 +1,6 @@
 ---
 templateKey: index-page
-title: Welcome to Pintas! :D
+title: Startup Framework Templates and Database
 image: /img/coffee.png
 heading: Framework is a mental shortcut
 subheading: Providing you with the toolset to start your business
