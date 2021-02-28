@@ -8,6 +8,18 @@ mainpitch:
   title: Why Pintas
   description: We provide you with curated frameworks complete with know-how,
     examples, and templates.
+strategy:
+  title: Strategy
+  description: High level understanding of your idea within your market, industry, and regions
+product:
+  title: Product
+  description: High level understanding of your idea within your market, industry, and regions
+marketing:
+  title: Marketing
+  description: High level understanding of your idea within your market, industry, and regions
+operation:
+  title: Operation
+  description: High level understanding of your idea within your market, industry, and regions
 description: "Many first-time entrepreneurs are unaware about basic frameworks
   that can help bring their idea into fruition. Those that are aware, are often
   unsure about which frameworks are worth trying given their situation. "

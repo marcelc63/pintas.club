@@ -1,18 +1,17 @@
+/* eslint-disable */
 import React from "react";
 import PropTypes from "prop-types";
-import { Link, graphql } from "gatsby";
+import { graphql } from "gatsby";
 
 import Layout from "../components/Layout";
 import Features from "../components/Features";
-import BlogRoll from "../components/BlogRoll";
+// import BlogRoll from "../components/BlogRoll";
 
 export const IndexPageTemplate = ({
-  image,
-  title,
-  heading,
-  subheading,
-  mainpitch,
-  description,
+  strategy,
+  product,
+  marketing,
+  operation,
   intro,
 }) => (
   <div>
@@ -37,8 +36,9 @@ export const IndexPageTemplate = ({
             textAlign: "center",
           }}
         >
-          Startup Framework <span style={{ color: "#2D8EE8" }}>Templates</span>
-          and <span style={{ color: "#2D8EE8" }}>Database</span>
+          Startup Framework <span style={{ color: "#2D8EE8" }}>Templates</span>{" "}
+          <span> and </span>
+          <span style={{ color: "#2D8EE8" }}>Database</span>
         </h1>
       </div>
     </div>
@@ -48,8 +48,13 @@ export const IndexPageTemplate = ({
           <div className="columns">
             <div className="column is-10 is-offset-1">
               <div className="content">
-                <Features gridItems={intro.blurbs} />
-                <div className="column is-12">
+                <Features
+                  strategy={strategy}
+                  product={product}
+                  marketing={marketing}
+                  operation={operation}
+                />
+                {/* <div className="column is-12">
                   <h3 className="has-text-weight-semibold is-size-2">
                     Latest stories
                   </h3>
@@ -59,7 +64,7 @@ export const IndexPageTemplate = ({
                       Read more
                     </Link>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
@@ -79,6 +84,30 @@ IndexPageTemplate.propTypes = {
   intro: PropTypes.shape({
     blurbs: PropTypes.array,
   }),
+  strategy: PropTypes.objectOf(
+    PropTypes.shape({
+      title: PropTypes.string,
+      description: PropTypes.string,
+    })
+  ),
+  product: PropTypes.objectOf(
+    PropTypes.shape({
+      title: PropTypes.string,
+      description: PropTypes.string,
+    })
+  ),
+  marketing: PropTypes.objectOf(
+    PropTypes.shape({
+      title: PropTypes.string,
+      description: PropTypes.string,
+    })
+  ),
+  operation: PropTypes.objectOf(
+    PropTypes.shape({
+      title: PropTypes.string,
+      description: PropTypes.string,
+    })
+  ),
 };
 
 const IndexPage = ({ data }) => {
@@ -91,7 +120,10 @@ const IndexPage = ({ data }) => {
         title={frontmatter.title}
         heading={frontmatter.heading}
         subheading={frontmatter.subheading}
-        mainpitch={frontmatter.mainpitch}
+        strategy={frontmatter.strategy}
+        product={frontmatter.product}
+        marketing={frontmatter.marketing}
+        operation={frontmatter.operation}
         description={frontmatter.description}
         intro={frontmatter.intro}
       />
@@ -123,7 +155,19 @@ export const pageQuery = graphql`
         }
         heading
         subheading
-        mainpitch {
+        strategy {
+          title
+          description
+        }
+        product {
+          title
+          description
+        }
+        marketing {
+          title
+          description
+        }
+        operation {
           title
           description
         }

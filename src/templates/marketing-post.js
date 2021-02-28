@@ -6,7 +6,7 @@ import { graphql, Link } from "gatsby";
 import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
 
-export const BlogPostTemplate = ({
+export const MarketingPostTemplate = ({
   content,
   contentComponent,
   description,
@@ -57,12 +57,12 @@ BlogPostTemplate.propTypes = {
   helmet: PropTypes.object,
 };
 
-const BlogPost = ({ data }) => {
+const MarketingPost = ({ data }) => {
   const { markdownRemark: post } = data;
 
   return (
     <Layout>
-      <BlogPostTemplate
+      <MarketingPostTemplate
         content={post.html}
         contentComponent={HTMLContent}
         description={post.frontmatter.description}
@@ -83,16 +83,16 @@ const BlogPost = ({ data }) => {
   );
 };
 
-BlogPost.propTypes = {
+MarketingPost.propTypes = {
   data: PropTypes.shape({
     markdownRemark: PropTypes.object,
   }),
 };
 
-export default BlogPost;
+export default MarketingPost;
 
 export const pageQuery = graphql`
-  query BlogPostByID($id: String!) {
+  query MarketingPostByID($id: String!) {
     markdownRemark(id: { eq: $id }) {
       id
       html
