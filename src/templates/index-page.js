@@ -23,21 +23,22 @@ export const IndexPageTemplate = ({
           height: "150px",
           lineHeight: "1",
           justifyContent: "space-around",
-          alignItems: "left",
+          alignItems: "center",
           flexDirection: "column",
         }}
       >
         <h1
           className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
           style={{
-            color: "#2D8EE8",
+            color: "#3A3A3A",
             lineHeight: "1",
             padding: "0.25em",
             maxWidth: "600px",
             textAlign: "center",
           }}
         >
-          Startup Framework Templates and Database
+          Startup Framework <span style={{ color: "#2D8EE8" }}>Templates</span>
+          and <span style={{ color: "#2D8EE8" }}>Database</span>
         </h1>
       </div>
     </div>

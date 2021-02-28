@@ -6,11 +6,13 @@ const FeatureGrid = ({ gridItems }) => (
   <div className="columns is-multiline">
     <div className="column is-6">
       <section className="section">
-        <p>Strategy</p>
-        <p>
-          High level understanding of your idea within your market, industry,
-          and regions
-        </p>
+        <div class="strategy">
+          <p class="strategy-title">Strategy</p>
+          <p class="strategy-description">
+            High level understanding of your idea within your market, industry,
+            and regions
+          </p>
+        </div>
       </section>
     </div>
     <div className="column is-6">
