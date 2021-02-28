@@ -4,7 +4,6 @@ import CMS from "netlify-cms-app";
 
 import AboutPagePreview from "./preview-templates/AboutPagePreview";
 import BlogPostPreview from "./preview-templates/BlogPostPreview";
-import ProductPagePreview from "./preview-templates/ProductPagePreview";
 import IndexPagePreview from "./preview-templates/IndexPagePreview";
 import StrategyPostPreview from "./preview-templates/StrategyPostPreview";
 import ProductPostPreview from "./preview-templates/ProductPostPreview";
@@ -16,7 +15,6 @@ import OperationPostPreview from "./preview-templates/OperationPostPreview";
 
 CMS.registerPreviewTemplate("index", IndexPagePreview);
 CMS.registerPreviewTemplate("about", AboutPagePreview);
-CMS.registerPreviewTemplate("products", ProductPagePreview);
 CMS.registerPreviewTemplate("blog", BlogPostPreview);
 CMS.registerPreviewTemplate("strategy", StrategyPostPreview);
 CMS.registerPreviewTemplate("product", ProductPostPreview);
