@@ -14,7 +14,7 @@ class StrategyRoll extends React.Component {
           posts.map(({ node: post }) => (
             <div className="is-parent column is-6" key={post.id}>
               <article
-                className={`blog-list-item tile is-child box notification ${
+                className={`blog-list-item tile is-child box ${
                   post.frontmatter.featuredpost ? "is-featured" : ""
                 }`}
               >
@@ -37,7 +37,7 @@ class StrategyRoll extends React.Component {
                   <br />
                   <br />
                   <Link className="button" to={post.fields.slug}>
-                    Keep Reading →
+                    View Template →
                   </Link>
                 </p>
               </article>
