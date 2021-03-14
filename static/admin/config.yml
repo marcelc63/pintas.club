@@ -41,7 +41,7 @@ collections:
         }
       - { label: "Body", name: "body", widget: "markdown" }
       - { label: "Link", name: "link", widget: "text" }
-      - { label: "Tags", name: "tags", widget: "list" }
+      - { label: "Tags", name: "tags", widget: "list", required: false }
 
   - name: "strategy"
     label: "Strategy"
@@ -72,7 +72,7 @@ collections:
         }
       - { label: "Body", name: "body", widget: "markdown" }
       - { label: "Link", name: "link", widget: "text" }
-      - { label: "Tags", name: "tags", widget: "list" }
+      - { label: "Tags", name: "tags", widget: "list", required: false }
 
   - name: "product"
     label: "Product"
@@ -103,7 +103,7 @@ collections:
         }
       - { label: "Body", name: "body", widget: "markdown" }
       - { label: "Link", name: "link", widget: "text" }
-      - { label: "Tags", name: "tags", widget: "list" }
+      - { label: "Tags", name: "tags", widget: "list", required: false }
 
   - name: "marketing"
     label: "Marketing"
@@ -134,7 +134,7 @@ collections:
         }
       - { label: "Body", name: "body", widget: "markdown" }
       - { label: "Link", name: "link", widget: "text" }
-      - { label: "Tags", name: "tags", widget: "list" }
+      - { label: "Tags", name: "tags", widget: "list", required: false }
 
   - name: "operation"
     label: "Operation"
@@ -165,7 +165,7 @@ collections:
         }
       - { label: "Body", name: "body", widget: "markdown" }
       - { label: "Link", name: "link", widget: "text" }
-      - { label: "Tags", name: "tags", widget: "list" }
+      - { label: "Tags", name: "tags", widget: "list", required: false }
 
   - name: "pages"
     label: "Pages"
