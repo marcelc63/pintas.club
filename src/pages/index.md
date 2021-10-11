@@ -1,6 +1,6 @@
 ---
 templateKey: index-page
-title: Startup Framework Templates and Database
+title: A Collection of Useful Frameworks for Startups
 image: /img/coffee.png
 heading: Framework is a mental shortcut
 subheading: Providing you with the toolset to start your business
