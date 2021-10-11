@@ -22,8 +22,8 @@ marketing:
     fine-tune customer acquisition strategies, and retain users.
 operation:
   title: Operations
-  description: Break apart and plan internal activities for better efficiency and
-    organization.
+  description: Break apart, understand, and plan both internal activities and
+    resources for better efficiency and organization.
 description: "Many first-time entrepreneurs are unaware about basic frameworks
   that can help bring their idea into fruition. Those that are aware, are often
   unsure about which frameworks are worth trying given their situation. "
