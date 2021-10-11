@@ -21,7 +21,7 @@ marketing:
   description: Use frameworks to identify effective distribution channels,
     fine-tune customer acquisition strategies, and retain users.
 operation:
-  title: Operation
+  title: Operations
   description: Break apart and plan internal activities for better efficiency and
     organization.
 description: "Many first-time entrepreneurs are unaware about basic frameworks
