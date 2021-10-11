@@ -10,19 +10,20 @@ mainpitch:
     examples, and templates.
 strategy:
   title: Strategy
-  description: High level understanding of your idea within your market, industry,
-    and regions
+  description: "Leverage frameworks to develop a robust plan that ensures your
+    product, market, and business model align. "
 product:
   title: Product
-  description: Product Frameworks
+  description: Frameworks for need-finding, product validation, and product
+    planning; go from problem discovery to perfecting solutions.
 marketing:
   title: Marketing
-  description: High level understanding of your idea within your market, industry,
-    and regions
+  description: Use frameworks to identify effective distribution channels,
+    fine-tune customer acquisition strategies, and retain users.
 operation:
   title: Operation
-  description: High level understanding of your idea within your market, industry,
-    and regions
+  description: Break apart and plan internal activities for better efficiency and
+    organization.
 description: "Many first-time entrepreneurs are unaware about basic frameworks
   that can help bring their idea into fruition. Those that are aware, are often
   unsure about which frameworks are worth trying given their situation. "
